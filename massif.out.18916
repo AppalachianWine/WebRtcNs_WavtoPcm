@@ -1,0 +1,201 @@
+desc: (none)
+cmd: ./main a.wav
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=134601
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=141341
+mem_heap_B=1576
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=144065
+mem_heap_B=5672
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=147029
+mem_heap_B=122472
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=149636
+mem_heap_B=122472
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=detailed
+n3: 122472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 116800 0x4083C3: drwav__read_and_close_s16 (in /home/leyuan/WebRTC_NS/main)
+  n1: 116800 0x408A4B: drwav_open_and_read_file_s16 (in /home/leyuan/WebRTC_NS/main)
+   n1: 116800 0x409012: wavRead_int16 (in /home/leyuan/WebRTC_NS/main)
+    n1: 116800 0x4093F2: noise_suppression (in /home/leyuan/WebRTC_NS/main)
+     n0: 116800 0x4095B0: main (in /home/leyuan/WebRTC_NS/main)
+ n1: 5120 0x51A71D3: _IO_file_doallocate (filedoalloc.c:127)
+  n2: 5120 0x51B5592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x51B309A: _IO_file_xsgetn (fileops.c:1375)
+    n1: 4096 0x51A8234: fread (iofread.c:38)
+     n1: 4096 0x401BA8: drwav__on_read_stdio (in /home/leyuan/WebRTC_NS/main)
+      n1: 4096 0x40289C: drwav_init (in /home/leyuan/WebRTC_NS/main)
+       n1: 4096 0x401C64: drwav_init_file (in /home/leyuan/WebRTC_NS/main)
+        n1: 4096 0x408A1C: drwav_open_and_read_file_s16 (in /home/leyuan/WebRTC_NS/main)
+         n1: 4096 0x409012: wavRead_int16 (in /home/leyuan/WebRTC_NS/main)
+          n1: 4096 0x4093F2: noise_suppression (in /home/leyuan/WebRTC_NS/main)
+           n0: 4096 0x4095B0: main (in /home/leyuan/WebRTC_NS/main)
+   n0: 1024 in 1 place, below massif's threshold (1.00%)
+ n0: 552 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=149636
+mem_heap_B=118376
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=149757
+mem_heap_B=117824
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=151204
+mem_heap_B=145520
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=112191137
+mem_heap_B=145520
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=peak
+n3: 145520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 116800 0x4083C3: drwav__read_and_close_s16 (in /home/leyuan/WebRTC_NS/main)
+  n1: 116800 0x408A4B: drwav_open_and_read_file_s16 (in /home/leyuan/WebRTC_NS/main)
+   n1: 116800 0x409012: wavRead_int16 (in /home/leyuan/WebRTC_NS/main)
+    n1: 116800 0x4093F2: noise_suppression (in /home/leyuan/WebRTC_NS/main)
+     n0: 116800 0x4095B0: main (in /home/leyuan/WebRTC_NS/main)
+ n1: 27696 0x412281: WebRtcNs_Create (in /home/leyuan/WebRTC_NS/main)
+  n1: 27696 0x4092CC: nsProcess (in /home/leyuan/WebRTC_NS/main)
+   n1: 27696 0x40942E: noise_suppression (in /home/leyuan/WebRTC_NS/main)
+    n0: 27696 0x4095B0: main (in /home/leyuan/WebRTC_NS/main)
+ n0: 1024 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=112191137
+mem_heap_B=117824
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=112192314
+mem_heap_B=118376
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=112192687
+mem_heap_B=118728
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=112194122
+mem_heap_B=122824
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=112200165
+mem_heap_B=118728
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=112200286
+mem_heap_B=118176
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=112200335
+mem_heap_B=1376
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=112202034
+mem_heap_B=2400
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=112205163
+mem_heap_B=1376
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=112205195
+mem_heap_B=352
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n2: 352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 352 0x404038: drwav_open_write__internal (in /home/leyuan/WebRTC_NS/main)
+  n1: 352 0x401E0A: drwav_open_file_write__internal (in /home/leyuan/WebRTC_NS/main)
+   n1: 352 0x401E58: drwav_open_file_write (in /home/leyuan/WebRTC_NS/main)
+    n1: 352 0x408F5C: wavWrite_int16 (in /home/leyuan/WebRTC_NS/main)
+     n1: 352 0x40949C: noise_suppression (in /home/leyuan/WebRTC_NS/main)
+      n0: 352 0x4095B0: main (in /home/leyuan/WebRTC_NS/main)
+ n0: 0 in 4 places, all below massif's threshold (1.00%)
